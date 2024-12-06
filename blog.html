@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testingsite</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--navigation-->
+    <nav><img src="images/logo.svg" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="courses.html">courses</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
+    </div>
+    </nav>
+    <!--Home-->
+
+    <section id="about-home">
+        <h2> blog /</h2>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs ">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development In the Easiest Way</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda, dignissimos recusandae voluptas laboriosam sint iure dolorem vitae iste tempora? Doloremque, adipisci unde distinctio doloribus eum officia dicta quisquam repellendus earum. Repellat laboriosam at nesciunt?
+                </p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Learn Web Development In the Easiest Way</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda, dignissimos recusandae voluptas laboriosam sint iure dolorem vitae iste tempora? Doloremque, adipisci unde distinctio doloribus eum officia dicta quisquam repellendus earum. Repellat laboriosam at nesciunt?
+                </p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn Web Development In the Easiest Way</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda, dignissimos recusandae voluptas laboriosam sint iure dolorem vitae iste tempora? Doloremque, adipisci unde distinctio doloribus eum officia dicta quisquam repellendus earum. Repellat laboriosam at nesciunt?
+                </p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Learn Web Development In the Easiest Way</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda, dignissimos recusandae voluptas laboriosam sint iure dolorem vitae iste tempora? Doloremque, adipisci unde distinctio doloribus eum officia dicta quisquam repellendus earum. Repellat laboriosam at nesciunt?
+                </p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">frontend Web</a>
+            <hr>
+            <a href="#">Python Programming </a>
+            <hr>
+            <a href="#">java script </a>
+            <hr>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>you can trust us. we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow"> SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2024 All rights reserved | This template is made by AKOREDE</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active');
+        });
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active');
+        });
+    </script>
+</body>
+</html>
